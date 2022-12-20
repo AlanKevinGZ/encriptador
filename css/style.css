@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+header{
+    background-color: #2a7ae4;
+    padding: 1rem 0;
+}
+
+header .img_icono{
+    width: 5%;
+}
+
+.col_hero{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
+}
+
+form textarea{
+    width: 100%;
+    height: 50rem;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 50rem;
+    min-height: 50rem;
+}
+
+form .btn_opciones button{
+    background-color: #2a7ae4;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.campo_resultado h2{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
